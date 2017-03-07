@@ -1,0 +1,377 @@
+/*** sectioning elements ***/
+
+/***
+font-family: 'Oswald', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Arimo', sans-serif;
+font-family: 'Droid Serif', serif;
+***/
+
+body {
+  padding: 10px;
+  background-color: #379ec4;
+  font-family: 'Lora', serif;
+  margin-left:25px;
+  margin-right:25px;
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+header {
+  background-color: #eee;
+  text-shadow: 1px 2px 0px #000000;
+}
+
+main {
+
+}
+
+footer {
+  	background-color:  #5d37c4;
+    color: #fff;
+    margin-top: 20px;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+.container {
+      border:5px solid #9ec437;
+      background:#eee;
+      margin-bottom: 10px;
+    }
+
+/**** content styles ***/
+p{
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #9ec437;
+
+
+}
+
+h2 {
+  background-color:    #9ec437;
+  color: #fff;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 0px #000000;
+  border-bottom: 2px solid #000;
+
+}
+
+h2.caro{
+  text-align: center;
+}
+
+h3.clear{
+  clear: both;
+}
+
+h3 {
+ color: #fff;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: 'Arimo', sans-serif;
+  color: #000;
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+  ul.social{
+  padding: 5px;
+  list-style-type: none;
+ overflow: hidden;
+}
+
+  li.social{
+  float: left;
+  margin-left: 10px;
+}
+
+li {
+
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 6px;
+  margin-right: 6px;
+  font-family: 'Oswald', sans-serif;
+}
+
+table{
+
+}
+
+tr {
+ border: 2px solid #5d37c4;
+
+}
+
+th {
+  color: #fff;
+  background-color: #9ec437;
+  font-family: 'Oswald', sans-serif;
+  font-size: 19px;
+  text-shadow: 2px 2px 0px #000000;
+  }
+
+td {
+  border: 2px solid #5d37c4;
+  padding:2px;
+  background-color: #bf9cfa;
+  color: #000;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+  border-style: none;
+ }
+.grow:hover { transform: scale(1.2); }
+
+.growd {
+  transition: all .2s ease-in-out;
+  border-style: none;
+ }
+.growd:hover { transform: scale(1.04); }
+
+.border{
+  border: 2px solid  #000;
+  background-color:  #9f7bf8;
+
+}
+
+
+/***
+h2 {
+  background-color:    #379ec4;
+  color: #fff;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 0px #000000;
+  border: 2px solid #000;
+
+}
+
+.border{
+  border: 2px solid  #9ec437;
+  background-color:  #adeffc;
+
+}
+**/
+td.room{
+  padding: 10px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+td.st{
+  padding: 3px;
+  font-size: 25px;
+}
+
+td.em{
+  padding: 30px;
+}
+
+th.sta{
+  font-size: 30px;
+}
+/*** image styles ***/
+
+img  {
+  max-width: auto;
+}
+
+img.bon{
+  border: 2px solid #000;
+}
+/*** My Random Tags ***/
+img.center{
+text-align: center;
+}
+
+div{
+  text-align: center;
+}
+
+h3.teacher{
+  font-size: 35px;
+  color: #000;
+  font-family: 'Oswald', sans-serif
+}
+
+/*** link styles ***/
+
+a:link {
+  color:#fff;
+}
+
+a:visited {
+  color:#fff;
+}
+
+a:hover {
+  color:#fff;
+  background-color: #7f59e6 ;
+
+}
+
+a:active {
+  color:#fff;
+  background-color: #7f59e6 ;
+
+}
+
+.bw {
+    transition: all .25s ease;
+}
+
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+.top{
+  font-size: 30px;
+text-align: center;
+margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  table {
+      width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid #AAAAAA;
+    display: block;
+    margin: 7px 0;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+}
+
+/*========================================
+      Forms
+=======================================*/
+form{
+  border: 2px solid  #000;
+  background-color:  #9f7bf8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #9ec437;
+    color: white;
+
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #9ed548;
+}
+
+
+/*========================================
+      Odin Override
+=======================================*/
+
+/*navbar*/
+.navbar{
+  background-color: #5d37c4;
+}
+
+.navbar-brand{
+
+}
+
+.navbar-menu{
+  padding-right: 20px;
+}
+
+.navbar-menu a:link, a:visited:first-child{
+
+}
+
+.navbar-menu a:link, a:visited  {
+   color: #fff;
+   padding-left: 8px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+   border: 2px solid #5d37c4;
+}
+
+.navbar-menu a:hover, a:active {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  background-color: #7f59e6 ;
+  border: 2px solid #fff;
+}
